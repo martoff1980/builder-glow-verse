@@ -1,6 +1,6 @@
 {
-  "name": "fusion-starter",
-  "private": true,
+  "name": "ukrainer-broker",
+  "private": false,
   "type": "module",
   "pkg": {
     "assets": [

@@ -18,6 +18,14 @@
     {
       "src": "/(.*)",
       "dest": "/dist/server/node-build.mjs"
+    },
+    {
+      "src": "/favicon.ico",
+      "dest": "/dist/spa/favicon.ico"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/dist/server/node-build.mjs"
     }
   ]
 }

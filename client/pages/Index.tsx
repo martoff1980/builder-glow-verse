@@ -19,25 +19,32 @@ export default function Index() {
               Український симулятор біржового брокера
             </h1>
             <p className="text-lg text-muted-foreground max-w-prose">
-              Практикуйтеся у торгівлі акціями, відточуйтe стратегії та керуйте віртуальним портфелем у реальному часі.
-              Сучасний дизайн, швидка робота та відчуття професійної торгової платформи.
+              Практикуйтеся у торгівлі акціями, відточуйтe стратегії та керуйте
+              віртуальним портфелем у реальному часі. Сучасний дизайн, швидка
+              робота та відчуття професійної торгової платформи.
             </p>
             <div className="flex items-center gap-3">
-              <a href="#simulate"><Button size="lg">Почати симуляцію</Button></a>
-              <a href="/trade"><Button size="lg" variant="secondary">Режим трейдера</Button></a>
+              <a href="/simulate">
+                <Button size="lg">Почати симуляцію</Button>
+              </a>
+              <a href="/trade">
+                <Button size="lg" variant="secondary">
+                  Режим трейдера
+                </Button>
+              </a>
             </div>
           </div>
           <div className="relative">
             <div className="absolute -inset-6 -z-10 bg-gradient-to-tr from-primary/10 to-accent/10 rounded-3xl blur-2xl" />
             <div className="rounded-2xl border bg-card shadow">
-              <TradingSimulator compact autoStart />
+              {/* <TradingSimulator compact autoStart /> */}
             </div>
           </div>
         </div>
       </section>
 
       <section className="container-px max-w-7xl mx-auto py-12 sm:py-16">
-        <TradingSimulator />
+        {/* <TradingSimulator /> */}
       </section>
     </div>
   );

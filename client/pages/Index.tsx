@@ -43,9 +43,9 @@ export default function Index() {
         </div>
       </section>
 
-      <section className="container-px max-w-7xl mx-auto py-12 sm:py-16">
-        {/* <TradingSimulator /> */}
-      </section>
+      {/* <section className="container-px max-w-7xl mx-auto py-12 sm:py-16">
+        <TradingSimulator />
+      </section> */}
     </div>
   );
 }
